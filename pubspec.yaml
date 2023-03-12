@@ -11,14 +11,23 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  geolocator: ^9.0.2
+  google_maps_flutter: ^2.2.5
+  permission_handler: ^10.2.0
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^2.0.0
 
+
 flutter:
   uses-material-design: true
+  assets: 
+    - assets/scooter_vector.png
+    - assets/map_style.json
+    - assets/map_style.txt
+
   
   
   
